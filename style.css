@@ -10,14 +10,15 @@ body {
     padding: 10vh 0 0;
 }
 .card {
-  background: #fff;
-  border-radius: 4px;
-  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.5);
-  max-width: 500px;
-  display: flex;
-  flex-direction: row;
-  border-radius: 25px;
-  position: relative;
+    background: #f6f6f6;
+    border-radius: 4px;
+    box-shadow: 0px 14px 80px rgb(34 35 58 / 50%);
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
 }
 .card h2 {
   margin: 0;
@@ -58,6 +59,7 @@ body {
     left: 100px;
     overflow: hidden;
     z-index: 2;
+    box-shadow: 0 3px 5px #0003;
 }
 
 .card-text {
@@ -67,6 +69,9 @@ body {
 
 .title-total {
     padding: 120px 1.5em 1.5em 1.5em;
+    background-image: url(https://png.pngitem.com/pimgs/s/166-1668421_line-art-hd-png-download.png);
+    background-position: 60px -20px;
+    background-repeat: no-repeat;
 }
 
 path {
